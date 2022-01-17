@@ -4,7 +4,7 @@
 #
 pubspec = YAML.load_file(File.join('..', 'pubspec.yaml'))
 libraryVersion = pubspec['version'].gsub('+', '-')
-pusherLibraryVersion = '~> 7.2'
+pusherLibraryVersion = '~> 9.0'
 
 Pod::Spec.new do |s|
   s.name             = 'laravel_flutter_pusher'
