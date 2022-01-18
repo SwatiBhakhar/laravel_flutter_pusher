@@ -23,7 +23,7 @@ Pusher client that supports laravel echo
   s.dependency 'PusherSwift', pusherLibraryVersion
   s.platform = :ios, '9.0'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
   s.prepare_command = <<-CMD
     echo // Generated file, do not edit > Classes/UserAgent.h
     echo "#define LIBRARY_VERSION @\\"#{libraryVersion}\\"" >> Classes/UserAgent.h
